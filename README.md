@@ -44,24 +44,4 @@ Optionally, MediBot can be enhanced with:
 
 ---
 
-📂 Project Structure
-medibot/
-│
-├── app.py                    # Streamlit app
-├── requirements.txt
-├── README.md
-├── .env.example
-│
-├── /src
-│   ├── chat.py               # OpenAI API interaction
-│   ├── ui.py                 # Streamlit UI components
-│   ├── pdf_parser.py         # Optional: extract text from PDFs
-│   └── utils.py
-│
-├── /data                     # Optional user uploads
-├── /assets                   # Logo / screenshots
-└── /embeddings               # FAISS vector store (if using RAG)
-🧾 Example Code Snippet
-
-
 
