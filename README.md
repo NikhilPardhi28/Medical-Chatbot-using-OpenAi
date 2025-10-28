@@ -44,40 +44,6 @@ Optionally, MediBot can be enhanced with:
 
 ---
 
-## ⚙️ Installation
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/<your-username>/medibot.git
-cd medibot
-2️⃣ Create and activate a virtual environment
-python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
-# Windows
-.venv\Scripts\activate
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-Example requirements.txt:
-
-🔑 Environment Variables
-Create a .env file in the root directory and add your OpenAI key:
-
-OPENAI_API_KEY=your_openai_api_key_here
-If you’re using document retrieval or FAISS:
-
-VECTOR_DB_PATH=./embeddings/index.faiss
-▶️ Usage
-
-Run the app
-streamlit run app.py
-Then open your browser at http://localhost:8501.
-
-Example Interaction
-User: “What are the symptoms of anemia?”
-MediBot: “Common symptoms include fatigue, pale skin, shortness of breath, and dizziness. However, consult a doctor for proper diagnosis.”
-
 📂 Project Structure
 medibot/
 │
@@ -96,5 +62,6 @@ medibot/
 ├── /assets                   # Logo / screenshots
 └── /embeddings               # FAISS vector store (if using RAG)
 🧾 Example Code Snippet
+
 
 
